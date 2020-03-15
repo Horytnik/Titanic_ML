@@ -1,77 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dc24cec-fc21-4e04-ac6f-e7a3ffa4492e" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="9dc24cec-fc21-4e04-ac6f-e7a3ffa4492e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/genericFunctions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TitanicMoj.py" beforeDir="false" afterPath="$PROJECT_DIR$/TitanicMoj.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.25.8.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.25.8.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.25.8.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.25.8.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.25.8.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.25.8.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/_collections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/connectionpool.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/connectionpool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_appengine_environ.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_appengine_environ.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_securetransport/bindings.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_securetransport/bindings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_securetransport/low_level.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_securetransport/low_level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/appengine.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/appengine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/ntlmpool.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/ntlmpool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/pyopenssl.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/pyopenssl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/securetransport.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/securetransport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/socks.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/socks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/fields.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/filepost.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/filepost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/backports/makefile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/backports/makefile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/six.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/six.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/ssl_match_hostname/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/ssl_match_hostname/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/ssl_match_hostname/_implementation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/ssl_match_hostname/_implementation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/poolmanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/poolmanager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/response.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/response.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/retry.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/retry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/ssl_.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/ssl_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/timeout.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/timeout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/wait.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/wait.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TitanicMoj.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-              <folding>
-                <element signature="e#50#69#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <option value="$PROJECT_DIR$/TitanicMoj.py" />
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="y" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1056" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Titanic_ML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Titanic_ML" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="JupyterTrust" id="34808afc-eb2e-406e-908f-b2fb6839800e">
+    <option name="files">
+      <option value="Test.ipynb" />
+    </option>
+  </component>
+  <component name="ProjectId" id="1YuGTCrTGVF6l1jVzQg0pr2Yj7G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.TitanicMoj">
     <configuration name="TitanicMoj" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Titanic_ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,7 +104,30 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TitanicMoj.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Titanic_ML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,6 +139,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.TitanicMoj" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -109,49 +153,78 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583589430488</updated>
+      <workItem from="1583785074795" duration="1218000" />
+      <workItem from="1584184200192" duration="13953000" />
+      <workItem from="1584275754143" duration="9397000" />
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13277134" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.64330876" visible="true" weight="0.37777779" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.35669124" side_tool="true" visible="true" weight="0.37777779" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49947312" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/generic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78523">
-          <caret line="4720" lean-forward="true" selection-start-line="4720" selection-end-line="4720" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TitanicMoj.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-          <folding>
-            <element signature="e#50#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="179" y="169" width="1538" height="722" key="#xdebugger.evaluate" timestamp="1584205189302">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="179" y="169" width="1538" height="722" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1584205189302" />
+    <state x="595" y="118" key="CommitChangelistDialog2" timestamp="1584290452247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="595" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584290452247" />
+    <state width="1565" height="234" key="GridCell.Tab.0.bottom" timestamp="1584289783990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1565" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584289783990" />
+    <state width="1565" height="234" key="GridCell.Tab.0.center" timestamp="1584289783990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1565" height="234" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584289783990" />
+    <state width="1565" height="234" key="GridCell.Tab.0.left" timestamp="1584289783990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1565" height="234" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584289783990" />
+    <state width="1565" height="234" key="GridCell.Tab.0.right" timestamp="1584289783990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1565" height="234" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584289783990" />
+    <state width="1413" height="383" key="GridCell.Tab.1.bottom" timestamp="1584285175838">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1413" height="383" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584285175838" />
+    <state width="1413" height="383" key="GridCell.Tab.1.center" timestamp="1584285175838">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1413" height="383" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584285175838" />
+    <state width="1413" height="383" key="GridCell.Tab.1.left" timestamp="1584285175837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1413" height="383" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584285175837" />
+    <state width="1413" height="383" key="GridCell.Tab.1.right" timestamp="1584285175838">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1413" height="383" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584285175838" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1584276254477">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584276254477" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1584278459970">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1584278459970" />
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584275757221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584275757221" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="wholeDataset" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Titanic_ML$test.coverage" NAME="test Coverage Results" MODIFIED="1584187232270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Titanic_ML$TitanicMoj.coverage" NAME="TitanicMoj Coverage Results" MODIFIED="1584289783983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
