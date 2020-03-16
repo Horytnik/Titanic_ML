@@ -1,28 +1,26 @@
 import pandas as pd
 import numpy as np 
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.tree import DecisionTreeClassifier, export_graphviz
 import matplotlib.pyplot as plt
 import seaborn
+from sklearn.externals.six import StringIO
 
+from IPython.display import Image
+
+import pydotplus
 
 
 train_data = pd.read_csv(r"train.csv")
 test_data = pd.read_csv(r"test.csv")
 
-
-with pd.option_context('display.max_columns', None):  # more options can be specified also
-    print(test_data)
-
 women = train_data.loc[train_data.Sex == 'female']['Survived']
 rate_women = sum(women)/len(women)
-print("% of women who survived:", rate_women)
 
 men = train_data.loc[train_data.Sex == 'male']['Survived']
 classmen = train_data.loc[train_data.Sex == 'male']['Pclass']
 rate_men = sum(men)/len(men)
 
-print("% of men who survived:", rate_men)
 
 labels = ["Woman", "Men"]
 
@@ -47,9 +45,6 @@ survived_2_class_men = sum(secondclassmen)/len(secondclassmen)
 survived_3_class_men = sum(thirdclassmen)/len(thirdclassmen)
 
 
-print("% of 1st class men: who survived",survived_1_class_men)
-print("% of 2nd class men: who survived",survived_2_class_men)
-print("% of 3rd class men: who survived",survived_3_class_men)
 
 peop1stclass = train_data.loc[train_data.Pclass == 1]['Survived']
 peop2ndclass = train_data.loc[train_data.Pclass == 2]['Survived']
@@ -88,10 +83,15 @@ modelRandomForest = RandomForestClassifier(n_estimators=100, max_depth=5, random
 modelRandomForest.fit(X, y)
 predictions = modelRandomForest.predict(X_test)
 
-print(modelRandomForest.score(X,y))
 
 output = pd.DataFrame({'PassengerId': test_data.PassengerId, 'Survived': predictions})
 output.to_csv('RandomForestSubmission.csv', index=False)
+
+estimator = modelRandomForest.estimators_[0]
+features =["Pclass", "Sex_male","Sex_female", "SibSp", "Parch"]
+export_graphviz(estimator, feature_names= features, out_file="modelRandomForest.dot",
+                rounded = True, proportion = False,
+                precision = 2, filled = True)
 
 
 modelDecisionTree = DecisionTreeClassifier()
@@ -100,4 +100,11 @@ predictions = modelDecisionTree.predict(X_test)
 
 output = pd.DataFrame({'PassengerId': test_data.PassengerId, 'Survived': predictions})
 output.to_csv('DecisionTreeSubmission.csv', index=False)
+
+features =["Pclass", "Sex_male","Sex_female", "SibSp", "Parch"]
+
+
+export_graphviz(modelDecisionTree, feature_names= features, out_file="modelDecisionTree.dot",
+                rounded = True, proportion = False,
+                precision = 2, filled = True)
 
