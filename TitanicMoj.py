@@ -14,6 +14,8 @@ import pydotplus
 train_data = pd.read_csv(r"train.csv")
 test_data = pd.read_csv(r"test.csv")
 
+print(train_data.info())
+
 women = train_data.loc[train_data.Sex == 'female']['Survived']
 rate_women = sum(women)/len(women)
 
@@ -79,32 +81,52 @@ features = ["Pclass", "Sex", "SibSp", "Parch"]
 X = pd.get_dummies(train_data[features])
 X_test = pd.get_dummies(test_data[features])
 
-modelRandomForest = RandomForestClassifier(n_estimators=100, max_depth=5, random_state=1)
+
+modelRandomForest = RandomForestClassifier(n_estimators=100, max_depth=7, random_state=1)
+# train the model
 modelRandomForest.fit(X, y)
-predictions = modelRandomForest.predict(X_test)
+# test the model
+predictionsRF = modelRandomForest.predict(X_test)
 
+scoreRandomForest = modelRandomForest.score(X,y)
 
-output = pd.DataFrame({'PassengerId': test_data.PassengerId, 'Survived': predictions})
+output = pd.DataFrame({'PassengerId': test_data.PassengerId, 'Survived': predictionsRF})
 output.to_csv('RandomForestSubmission.csv', index=False)
 
 estimator = modelRandomForest.estimators_[0]
-features =["Pclass", "Sex_male","Sex_female", "SibSp", "Parch"]
+features =["Pclass", "SibSp", "Parch", "Sex_male","Sex_female"]
 export_graphviz(estimator, feature_names= features, out_file="modelRandomForest.dot",
                 rounded = True, proportion = False,
                 precision = 2, filled = True)
 
 
-modelDecisionTree = DecisionTreeClassifier()
+modelDecisionTree = DecisionTreeClassifier(max_depth=7)
 modelDecisionTree.fit(X,y)
-predictions = modelDecisionTree.predict(X_test)
+predictionsDT = modelDecisionTree.predict(X_test)
 
-output = pd.DataFrame({'PassengerId': test_data.PassengerId, 'Survived': predictions})
+scoreDecTree = modelDecisionTree.score(X,y)
+
+output = pd.DataFrame({'PassengerId': test_data.PassengerId, 'Survived': predictionsDT})
 output.to_csv('DecisionTreeSubmission.csv', index=False)
 
-features =["Pclass", "Sex_male","Sex_female", "SibSp", "Parch"]
+features =["Pclass", "SibSp", "Parch", "Sex_male","Sex_female"]
 
 
 export_graphviz(modelDecisionTree, feature_names= features, out_file="modelDecisionTree.dot",
                 rounded = True, proportion = False,
                 precision = 2, filled = True)
 
+modelDecisionTreeMaxDepth = DecisionTreeClassifier(criterion='gini',max_depth=5)
+modelDecisionTreeMaxDepth.fit(X,y)
+predictions = modelDecisionTreeMaxDepth.predict(X_test)
+
+
+export_graphviz(modelDecisionTreeMaxDepth, feature_names= features, out_file="modelDecisionTreeMaxDepth.dot",
+                rounded = True, proportion = False,
+                precision = 2, filled = True)
+
+scoreMaxDepth = modelDecisionTreeMaxDepth.score(X,y)
+
+print("Random forest: ", scoreRandomForest)
+print("Decision tree: ", scoreDecTree)
+print("Decision Tree Max Depth: ", scoreMaxDepth)

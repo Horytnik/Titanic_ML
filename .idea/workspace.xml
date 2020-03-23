@@ -4,44 +4,6 @@
     <list default="true" id="9dc24cec-fc21-4e04-ac6f-e7a3ffa4492e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TitanicMoj.py" beforeDir="false" afterPath="$PROJECT_DIR$/TitanicMoj.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.25.8.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.25.8.dist-info/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.25.8.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.25.8.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.25.8.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.25.8.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/_collections.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/connectionpool.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/connectionpool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_appengine_environ.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_appengine_environ.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_securetransport/bindings.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_securetransport/bindings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_securetransport/low_level.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_securetransport/low_level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/appengine.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/appengine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/ntlmpool.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/ntlmpool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/pyopenssl.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/pyopenssl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/securetransport.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/securetransport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/socks.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/socks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/fields.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/filepost.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/filepost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/backports/makefile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/backports/makefile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/six.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/six.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/ssl_match_hostname/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/ssl_match_hostname/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/ssl_match_hostname/_implementation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/ssl_match_hostname/_implementation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/poolmanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/poolmanager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/response.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/response.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/retry.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/retry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/ssl_.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/ssl_.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/timeout.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/timeout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/wait.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/wait.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,19 +27,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="34808afc-eb2e-406e-908f-b2fb6839800e">
-    <option name="files">
-      <option value="Test.ipynb" />
-    </option>
-  </component>
+  <component name="JupyterTrust" id="34808afc-eb2e-406e-908f-b2fb6839800e" />
   <component name="ProjectId" id="1YuGTCrTGVF6l1jVzQg0pr2Yj7G" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -156,7 +114,16 @@
       <workItem from="1584184200192" duration="13953000" />
       <workItem from="1584275754143" duration="10073000" />
       <workItem from="1584304451223" duration="890000" />
-      <workItem from="1584375850071" duration="3342000" />
+      <workItem from="1584375850071" duration="4113000" />
+      <workItem from="1584467898491" duration="2614000" />
+      <workItem from="1584634052334" duration="3969000" />
+      <workItem from="1584738702367" duration="422000" />
+      <workItem from="1584741929928" duration="611000" />
+      <workItem from="1584786846490" duration="3821000" />
+      <workItem from="1584808185798" duration="653000" />
+      <workItem from="1584879600937" duration="1227000" />
+      <workItem from="1584893053906" duration="2743000" />
+      <workItem from="1584985324983" duration="80000" />
     </task>
     <task id="LOCAL-00001" summary="Two algorithms and graphs">
       <created>1584290685454</created>
@@ -165,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584290685455</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added visualisation of trees">
+      <created>1584379361909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584379361909</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,83 +147,85 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Two algorithms and graphs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Two algorithms and graphs" />
+    <MESSAGE value="Added visualisation of trees" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added visualisation of trees" />
   </component>
   <component name="WindowStateProjectService">
     <state x="179" y="169" width="1538" height="722" key="#xdebugger.evaluate" timestamp="1584205189302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="179" y="169" width="1538" height="722" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1584205189302" />
-    <state x="595" y="118" key="CommitChangelistDialog2" timestamp="1584290684668">
+    <state x="595" y="118" key="CommitChangelistDialog2" timestamp="1584379360977">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="595" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584290684668" />
-    <state width="1560" height="234" key="GridCell.Tab.0.bottom" timestamp="1584379289479">
+    <state x="595" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584379360977" />
+    <state width="1408" height="383" key="GridCell.Tab.0.bottom" timestamp="1584895911011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1560" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584379289479" />
-    <state width="1560" height="234" key="GridCell.Tab.0.center" timestamp="1584379289479">
+    <state width="1408" height="383" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584895911011" />
+    <state width="1408" height="383" key="GridCell.Tab.0.center" timestamp="1584895911011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1560" height="234" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584379289479" />
-    <state width="1560" height="234" key="GridCell.Tab.0.left" timestamp="1584379289479">
+    <state width="1408" height="383" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584895911011" />
+    <state width="1408" height="383" key="GridCell.Tab.0.left" timestamp="1584895911011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1560" height="234" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584379289479" />
-    <state width="1560" height="234" key="GridCell.Tab.0.right" timestamp="1584379289479">
+    <state width="1408" height="383" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584895911011" />
+    <state width="1408" height="383" key="GridCell.Tab.0.right" timestamp="1584895911011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1560" height="234" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584379289479" />
-    <state width="1413" height="383" key="GridCell.Tab.1.bottom" timestamp="1584291125308">
+    <state width="1408" height="383" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584895911011" />
+    <state width="1408" height="383" key="GridCell.Tab.1.bottom" timestamp="1584895911011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1413" height="383" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584291125308" />
-    <state width="1413" height="383" key="GridCell.Tab.1.center" timestamp="1584291125308">
+    <state width="1408" height="383" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584895911011" />
+    <state width="1408" height="383" key="GridCell.Tab.1.center" timestamp="1584895911011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1413" height="383" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584291125308" />
-    <state width="1413" height="383" key="GridCell.Tab.1.left" timestamp="1584291125308">
+    <state width="1408" height="383" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584895911011" />
+    <state width="1408" height="383" key="GridCell.Tab.1.left" timestamp="1584895911011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1413" height="383" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584291125308" />
-    <state width="1413" height="383" key="GridCell.Tab.1.right" timestamp="1584291125308">
+    <state width="1408" height="383" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584895911011" />
+    <state width="1408" height="383" key="GridCell.Tab.1.right" timestamp="1584895911011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1413" height="383" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584291125308" />
+    <state width="1408" height="383" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584895911011" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1584377526418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584377526418" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1584290693268">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1584379363827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584290693268" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584379363827" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1584278459970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1584278459970" />
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584375861535">
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584879601582">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584375861535" />
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584879601582" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/TitanicMoj.py</url>
+          <line>16</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TitanicMoj.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="wholeDataset" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Titanic_ML$test.coverage" NAME="test Coverage Results" MODIFIED="1584187232270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Titanic_ML$TitanicMoj.coverage" NAME="TitanicMoj Coverage Results" MODIFIED="1584379289472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Titanic_ML$test.coverage" NAME="test Coverage Results" MODIFIED="1584893095892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Titanic_ML$TitanicMoj.coverage" NAME="TitanicMoj Coverage Results" MODIFIED="1584894433090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
